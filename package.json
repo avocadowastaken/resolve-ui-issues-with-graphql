@@ -1,0 +1,14 @@
+{
+  "private": true,
+  "license": "MIT",
+  "version": "1.0.0",
+  "name": "resolve-ui-issues-with-graphql",
+  "description": "Proof of concept for GDG Tashkent DevFest",
+  "repository": "https://github.com/umidbekkarimov/resolve-ui-issues-with-graphql.git",
+  "author": "Umidbek Karimov <uma.karimov@gmail.com>",
+  "workspaces": {
+    "packages": [
+      "workspaces/*"
+    ]
+  }
+}

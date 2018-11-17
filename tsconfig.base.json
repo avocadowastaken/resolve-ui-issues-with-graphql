@@ -1,0 +1,40 @@
+{
+  "compilerOptions": {
+    // Use for debugging and error tracking.
+    "sourceMap": true,
+    // Allow to load modules without typings.
+    "allowJs": true,
+    // Use dom and latest ES typings.
+    "lib": ["dom", "esnext"],
+    // Preserve jsx code.
+    "jsx": "preserve",
+    // Use esnext modules and let Webpack do the rest.
+    "module": "esnext",
+    // Transpile to with latest ES features and let Babel do the rest.
+    "target": "esnext",
+    // Allow to use node modules.
+    "moduleResolution": "node",
+    // Minimize amout of genereted code by importing helpers from `tslib`.
+    "importHelpers": true,
+
+    // Strict type checks.
+    "strict": true,
+    "strictPropertyInitialization": false,
+
+    // Dead code checks.
+    "noUnusedLocals": true,
+    "noUnusedParameters": true,
+
+    // Possible bug checks.
+    "noFallthroughCasesInSwitch": true,
+    "forceConsistentCasingInFileNames": true,
+
+    // Experimental features for typeorm and typestack libs.
+    "experimentalDecorators": true,
+
+    "skipLibCheck": true,
+
+    "baseUrl": "./workspaces",
+    "paths": {}
+  }
+}
