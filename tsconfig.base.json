@@ -35,6 +35,9 @@
     "skipLibCheck": true,
 
     "baseUrl": "./workspaces",
-    "paths": {}
+    "paths": {
+      "@app/types": ["./common-types/src"],
+      "@app/utils": ["./common-utils/src"]
+    }
   }
 }

@@ -10,5 +10,11 @@
     "packages": [
       "workspaces/*"
     ]
+  },
+  "scripts": {
+    "ci": "yarn workspaces run ci",
+    "ci-fix": "yarn workspaces run ci-fix",
+    "start:api": "yarn workspace @app/api start",
+    "start:web": "yarn workspace @app/web start"
   }
 }
