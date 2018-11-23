@@ -1,0 +1,54 @@
+{
+  "name": "app",
+  "version": "0.1.0",
+  "private": true,
+  "browserslist": [
+    ">0.2%",
+    "not dead",
+    "not ie <= 11",
+    "not op_mini all"
+  ],
+  "scripts": {
+    "ci": "yarn lint && yarn check-typings",
+    "ci-fix": "yarn lint --fix && yarn check-typings",
+    "lint": "stylotron lint",
+    "check-typings": "tsc --noEmit",
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "eject": "react-scripts eject"
+  },
+  "dependencies": {
+    "lodash": "^4.17.11",
+    "react": "^16.6.3",
+    "react-dom": "^16.6.3",
+    "react-modal": "^3.6.1"
+  },
+  "devDependencies": {
+    "@dc0de/eslint-config": "^0.4.0",
+    "@dc0de/eslint-config-base": "^0.4.0",
+    "@dc0de/eslint-config-node": "^0.4.6",
+    "@dc0de/eslint-config-react": "^0.4.6",
+    "@types/lodash": "^4.14.118",
+    "@types/react": "^16.7.7",
+    "@types/react-dom": "^16.0.10",
+    "@types/react-modal": "^3.2.1",
+    "eslint": "^5.9.0",
+    "eslint-config-airbnb": "^17.1.0",
+    "eslint-config-airbnb-base": "^13.1.0",
+    "eslint-config-prettier": "^3.0.0",
+    "eslint-plugin-import": "^2.14.0",
+    "eslint-plugin-jsx-a11y": "^6.1.1",
+    "eslint-plugin-node": "^8.0.0",
+    "eslint-plugin-react": "^7.11.0",
+    "eslint-plugin-typescript": "^0.13.0",
+    "import-sort": "^5.2.0",
+    "import-sort-parser-typescript": "^5.0.0",
+    "import-sort-style-module": "^5.0.0",
+    "jest": "^23.6.0",
+    "prettier": "^1.15.2",
+    "react-scripts": "2.1.1",
+    "stylotron": "^0.0.7",
+    "typescript": "^3.1.0",
+    "typescript-eslint-parser": "^20.0.0"
+  }
+}
