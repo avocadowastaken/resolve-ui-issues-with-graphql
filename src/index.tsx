@@ -1,9 +1,9 @@
 import * as React from "react";
 import { AppRegistry } from "react-native";
 
-import { AppContainer } from "./containers/AppContainer";
+import { ApolloApp } from "./api/Apollo";
 
-AppRegistry.registerComponent("App", () => AppContainer);
+AppRegistry.registerComponent("App", () => ApolloApp);
 AppRegistry.runApplication("App", {
   rootTag: document.getElementById("root"),
 });
