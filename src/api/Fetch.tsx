@@ -40,15 +40,12 @@ export class Fetch extends React.Component<Props, State> {
 
     this.setState({ fetching: true, error: undefined, response: undefined });
 
-    fetch(url, {
+    fetch(`https://cors-anywhere.herokuapp.com/${url}`, {
       body,
       method,
       signal,
       cache: "force-cache",
-      headers: {
-        "Content-Type": "application/json",
-        "X-API-Key": trim(process.env.REACT_API_KEY),
-      },
+      headers: { origin: "" },
     })
       .then(x => {
         if (!x.ok) {

@@ -19,21 +19,32 @@
   },
   "dependencies": {
     "apollo-boost": "^0.1.22",
+    "graphql": "^14.0.2",
     "graphql-tag": "^2.10.0",
     "lodash": "^4.17.11",
     "react": "^16.6.3",
+    "react-apollo": "^2.3.1",
+    "react-art": "^16.6.3",
     "react-dom": "^16.6.3",
-    "react-modal": "^3.6.1"
+    "react-modal": "^3.6.1",
+    "react-native-web": "^0.9.8",
+    "react-router-dom": "^4.3.1",
+    "react-router-native": "^4.3.0"
   },
   "devDependencies": {
     "@dc0de/eslint-config": "^0.4.0",
     "@dc0de/eslint-config-base": "^0.4.0",
     "@dc0de/eslint-config-node": "^0.4.6",
     "@dc0de/eslint-config-react": "^0.4.6",
+    "@types/graphql": "^14.0.3",
     "@types/lodash": "^4.14.118",
     "@types/react": "^16.7.7",
     "@types/react-dom": "^16.0.10",
     "@types/react-modal": "^3.2.1",
+    "@types/react-native": "^0.57.13",
+    "@types/react-router-dom": "^4.3.1",
+    "@types/react-router-native": "^4.2.3",
+    "@types/webpack-env": "^1.13.6",
     "eslint": "^5.9.0",
     "eslint-config-airbnb": "^17.1.0",
     "eslint-config-airbnb-base": "^13.1.0",
@@ -49,8 +60,8 @@
     "jest": "^23.6.0",
     "prettier": "^1.15.2",
     "react-scripts": "2.1.1",
-    "stylotron": "^0.0.7",
+    "stylotron": "^0.0.8",
     "typescript": "^3.1.0",
-    "typescript-eslint-parser": "^20.0.0"
+    "typescript-eslint-parser": "^21.0.1"
   }
 }

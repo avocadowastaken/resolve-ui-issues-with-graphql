@@ -20,3 +20,23 @@ export interface BreedInfo {
   // eslint-disable-next-line camelcase
   readonly breed_group: string;
 }
+
+export interface CategoryPayload {
+  readonly idCategory: string;
+  readonly strCategory: string;
+  readonly strCategoryThumb: string;
+  readonly strCategoryDescription: string;
+}
+
+export interface MealPayload {
+  readonly idMeal: string;
+  readonly strMeal: string;
+  readonly strMealThumb: string;
+}
+
+export interface MealDetailsPayload extends MealPayload {
+  readonly strCategory: string;
+  readonly strInstructions: string;
+
+  readonly [key: string]: string;
+}

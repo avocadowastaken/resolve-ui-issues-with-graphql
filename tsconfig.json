@@ -7,7 +7,7 @@
     "target": "es2018",
     "sourceMap": false,
     "allowJs": true,
-    "skipLibCheck": false,
+    "skipLibCheck": true,
     "esModuleInterop": true,
     "allowSyntheticDefaultImports": true,
     "strict": true,
