@@ -18,6 +18,8 @@
     "eject": "react-scripts eject"
   },
   "dependencies": {
+    "apollo-boost": "^0.1.22",
+    "graphql-tag": "^2.10.0",
     "lodash": "^4.17.11",
     "react": "^16.6.3",
     "react-dom": "^16.6.3",
