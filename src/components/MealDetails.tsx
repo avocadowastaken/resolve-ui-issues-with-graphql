@@ -51,7 +51,7 @@ export function MealDetails({ meal }: Props) {
           }
 
           return (
-            <View style={styles.ingredient}>
+            <View key={ingredient} style={styles.ingredient}>
               <ResizedImage
                 width={150}
                 height={150}
