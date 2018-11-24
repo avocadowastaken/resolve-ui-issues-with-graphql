@@ -1,11 +1,11 @@
-import { ApolloClient } from "apollo-client";
 import { InMemoryCache } from "apollo-cache-inmemory";
+import { ApolloClient } from "apollo-client";
 import { SchemaLink } from "apollo-link-schema";
 import gql from "graphql-tag";
 import { makeExecutableSchema } from "graphql-tools";
-import { Query, ApolloProvider } from "react-apollo";
-import { Text } from "react-native";
 import * as React from "react";
+import { ApolloProvider, Query } from "react-apollo";
+import { Text } from "react-native";
 
 const typeDefs = gql`
   type Query {
